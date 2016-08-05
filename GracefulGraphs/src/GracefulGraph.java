@@ -20,7 +20,7 @@ public class GracefulGraph {
 
 	public boolean addNode(Integer node,Integer nextTo){
 	  Integer difference = node - nextTo;
-	  System.out.println ("Adding " + node + "next to" + nextTo);
+	  System.out.println ("Addin " + node + "next to" + nextTo);
 	  if (differences.contains (Math.abs(difference))) {
 		  System.out.println ("Because difference");
 	   return false;
